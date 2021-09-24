@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="shortcut icon" href="assets/img/CV.png" type="image/x-icon">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- =====SWIPER===== -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+        <!-- =====VanillaTop-ScrollUp===== -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
+        <link rel="stylesheet" href="assets/css/vanillatop.min.css">
+
+        <!--===== Magnific Popup core CSS file =====-->
+        <link rel="stylesheet" href="assets/libs/magnific-popup.css">
+
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Amir</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Amir Kenesbay</span><br> Software Developer</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/amir-kenesbay-a0a263198/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://hh.kz/resume/37af034fff094133940039ed1f57774a6b6775" target="_blank" class="home__social-icon"><i class='bx bx-heading' ></i></a>
+                    <a href="https://github.com/amirkenesbay" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/perfil.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div class="about__block">
+                        <h2 class="about__subtitle">I'am Amir</h2>
+                        <p class="about__text">I am developing Java applications using the Spring framework</p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">40</span>
+                                <span class="about__info-name">Projects</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">1</span>
+                                <span class="about__info-name">Years of<br>knowledges</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">6</span>
+                                <span class="about__info-name">Web<br>sites</span>
+                            </div>
+                            
+                        </div>
+
+                        <div class="inline-popups">
+                            <a href="#test-popup" data-effect="mfp-zoom-in">Learn more</a>
+                        </div>                                
+                            
+                        <div class="hidden">
+                        <form id="form">
+                            <div class = "form-inner">
+                                <h3>Написать нам</h3>
+                                <input type="text" name="name" placeholder="Имя">
+                                <input type="text" name="phone" placeholder="Телефон">
+                                <textarea placeholder="Сообщение..." rows="3"></textarea>
+                                <input type="submit" value="Отправить">
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">The profesional skills are listed below by percentage</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">30%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-coffee skills__icon'></i>
+                                <span class="skills__name">JAVA CORE</span>
+                            </div>
+                            <div class="skills__bar skills__java">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-droplet-half skills__icon'></i>
+
+                                <span class="skills__name">SPRING</span>
+                            </div>
+                            <div class="skills__bar skills__spring">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">20%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-book-content skills__icon'></i>
+
+                                <span class="skills__name">PostgreSQL</span>
+                            </div>
+                            <div class="skills__bar skills__sql">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-git skills__icon'></i>
+
+                                <span class="skills__name">Git</span>
+                            </div>
+                            <div class="skills__bar skills__git">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                        <img src="assets/img/work4.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+
+
+        
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+                <i class='bx bxl-spring-boot' ></i>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href="https://github.com/amirkenesbay/Juice-site/tree/master/src" target="_blank">
+                            <img class="static" src="assets/img/Juicy.jpg" alt="Juicy">
+                            <img class="active" src="assets/img/Juicy.gif">
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://github.com/amirkenesbay/ActiveBox/tree/master/src" target="_blank">
+                            <img class="static" src="assets/img/ActiveBox.jpg" alt="ActiveBox">
+                            <img class="active" src="assets/img/ActiveBox.gif">
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://github.com/amirkenesbay/site-portfolio/tree/master/src" target="_blank">
+                            <img class="static" src="assets/img/PortfolioWeb.jpg" alt="PortfolioWeb">
+                            <img class="active" src="assets/img/PortfolioWeb.gif">
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://github.com/amirkenesbay/DiplomaSite/tree/master/src" target="_blank">
+                            <img class="static" src="assets/img/Diploma.jpg" alt="Diploma">
+                            <img class="active" src="assets/img/Diploma.gif">
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://github.com/amirkenesbay/RedLife" target="_blank">
+                            <img class="static" src="assets/img/RedLife.jpg" alt="RedLife">
+                            <img class="active" src="assets/img/RedLife.gif">
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://github.com/amirkenesbay/gssgroup" target="_blank">
+                            <img class="static" src="assets/img/GSS.jpg" alt="GSS">
+                            <img class="active" src="assets/img/GSS.gif">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="mail.php" method="POST" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input" name="user_name">
+                        <input type="text" placeholder="Email" class="contact__input" name="user_email">
+                        <textarea type = "text" id="" cols="0" rows="10" class="contact__input" name="user_text"></textarea>
+                        <!-- <input type="text" name="user_text" class="contact__input"> -->
+                        <button type="submit" class="contact__button button">Send</button>
+                    </form>
+                </div>
+
+                <!-- Popup itself -->
+                <div id="test-popup" class="white-popup mfp-with-anim mfp-hide">
+                    <ol class="gradient-list">
+                        <div class = "gradient-list-text">
+                          For the last year I have been studying the Java programming language at the Runtime Programming Center. I have good knowledge of the language and experience in writing client-server applications. What I studied and what I am good at:
+                        </div><br>
+                        <li>Java programming language (you can look at projects on github)</li>
+                        <li>Data structures and algorithms (I can tell you about data structures and write 5 algorithms for sorting an array, I am also familiar with other algorithms: binary search, linear search)</li>
+                        <li>HTML and CSS (I made 6 good sites, you can look at projects on github)</li>
+                        <li>SQL (worked with PostgreSQL and can navigate in mySQL as well)</li>
+                        <li>Git (Github, BitBucket, Gitlab)</li>
+                        <li>Maven (familiar with this tool for managing and building projects, I can also work with dependencies and know the life cycle of a project)</li>
+                        <li>Protocols HTTP / HTTPS (I know what is the difference between http and https, worked with http (s) methods)</li>
+                        <li>Patterns / design patterns (I know what types of patterns there are, I am familiar with such design patterns as: Singleton, Factory, Prototype</li>
+                        <li>Familiar with the architecture of the software (client-server architecture, components of the client-server architecture)</li>
+                        <li>MVC (familiar with this principle of building the architecture of a large application, in which it is divided into 3 parts)</li>
+                        <li>Spring Framework (Spring boot)</li>
+                        <li>Agile, Scrum, Kanban</li>
+                    </ol>
+            </div>
+
+            </section>
+
+            <div type="button" class="callback-bt ">
+                <a href="https://t.me/Amer1807" target="_blank" rel="nofollow">
+                <div class="text-call">
+                    <i class="fab fa-telegram-plane"></i>
+                <span>Text</span>
+                </div>
+            </div>
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Amir</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/amir-kenesbay-a0a263198/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://hh.kz/resume/37af034fff094133940039ed1f57774a6b6775" target="_blank" class="footer__icon"><i class='bx bx-heading' ></i></a>
+                <a href="https://github.com/amirkenesbay" target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+
+        <!--===== JQuery =====-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!--===== Magnific Popup core JS file =====-->
+        <script src="assets/libs/jquery.magnific-popup.js"></script>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+
+        <!--===== SWIPER JS =====-->     
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!--===== VanillaTop-ScrollUp =====-->   
+        <script src="assets/js/vanillatop.min.js"></script>
+        <a href="#!" class="vanillatop"></a>
+
+        <!--===== Font-Awesome =====-->
+        <script src="https://kit.fontawesome.com/607927044b.js" crossorigin="anonymous"></script>
+
+        
+    </body>
+</html>
